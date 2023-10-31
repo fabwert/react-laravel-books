@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Environment variables
+.env
+.env.local
+
+# Log files
+npm-debug.log*
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# IDE and code editor files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.cvsignore
+*.svnignore
+.svn/
+*.sublime-project
+*.sublime-workspace
+
+# Laravel specific files
+/storage/*.key
+.env.example
+public/hot
+public/storage
+
+# Composer specific files
+/vendor/
+
+# Compiled PHP files
+*.php
+*.phar
+
+# Laravel Mix (if you are using Laravel Mix for asset compilation)
+public/css/
+public/js/
+
+# Compiled TypeScript JavaScript files
+/dist/
+
+# Miscellaneous
+.pnpm-store/
+.pnpm-workspace.yaml
+.pnpmfile.cjs
