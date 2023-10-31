@@ -21,7 +21,7 @@ function HomePage() {
     if (status === "idle") {
       dispatch(fetchBooks());
     }
-  }, [dispatch]);
+  }, [dispatch, status]);
 
   return (
     <>
